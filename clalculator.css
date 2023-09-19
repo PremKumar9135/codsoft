@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(77, 70, 70);
+}
+
+.parent{
+    background-color: rgb(35, 28, 28);
+    margin-top: 20px;
+    height: 500px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+.clild{
+    margin-top:5px;
+    
+    height: 40px;
+    width: 300px;
+    
+}
+.innerdiv{
+    
+    margin-top: 30px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: rgb(66, 65, 65);
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+
+}
+#text{
+    border: 3px solid rgb(41, 127, 144);
+    border-radius: 12px;
+    height: 47px;
+    width: 300px;
+    text-align: end;
+    font-size: 40px;
+    background-color: rgb(82, 30, 161);
+    color: white;
+
+}
